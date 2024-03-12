@@ -1,0 +1,37 @@
+.form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+
+    h2{
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+    
+    ul{
+        list-style-type: none;
+        width: 100%;
+    }
+}
+
+form{
+    .campo{
+        width: 100%;
+        padding: 16px 10px;
+        margin-bottom: 22px;
+        border-radius: 8px
+    }
+
+    .campo-grande{
+        width: 100%;
+        padding: 16px 10px;
+        margin-bottom: 22px;
+        border-radius: 8px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+}

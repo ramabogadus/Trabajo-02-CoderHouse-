@@ -1,4 +1,4 @@
-*{
+/* *{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -9,13 +9,13 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+} */
 
-header.header{
+/* header.header{
     position: sticky;
-}
+} */
 
-section.products h3 {
+/* section.products h3 {
     padding: 24px;
 }
 
@@ -49,16 +49,16 @@ a.titulo-producto{
     font-style: normal;
     color: #777E90;
     font-size: 20px;
-}
+} */
 
-footer.footer{
+/* footer.footer{
     background-color: whitesmoke;
     padding: 16px;
     margin-top: auto;
-}
+} */
 
 
-div.form{
+/* div.form{
     width: 100%;
     max-width: 1100px;
     margin: auto;
@@ -88,9 +88,9 @@ form .campo, .campo-grande{
 form .campo-grande{
     min-height: 140px;
     max-height: 150px;
-}
+} */
 
-div.nosotros-texto h2{
+/* div.nosotros-texto h2{
     padding: 16px;
     margin-top: 30px;
     font-size: 32px;
@@ -116,9 +116,9 @@ div.nosotros-redes a{
     color: whitesmoke;
     line-height: 40px;
     box-shadow: 0 0 8px #d7d7d7;
-}
+} */
 
-main {
+/* main {
 	display: flex;
 	margin-bottom: 80px;
 }
@@ -169,9 +169,9 @@ main {
 	background-color: #f7f7f7;
 	outline: none;
 	color: #666;
-}
+} */
 
-.container-detalles-producto {
+/* .container-detalles-producto {
 	padding: 30px 0;
 }
 
@@ -182,7 +182,7 @@ main {
 
 .descripcion-texto{
     width: 70%;
-}
+} */
 
 
 @media (max-width: 480px) {
