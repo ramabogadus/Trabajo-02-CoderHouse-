@@ -83,10 +83,58 @@ div.todos-los-productos {
   font-size: 20px;
 }
 
-footer .footer {
-  background-color: whitesmoke;
-  padding: 16px;
-  margin-top: auto;
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #f3f4f5;
+}
+footer .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+footer .footer-container .footer-caja {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+footer .footer-container .footer-caja .footer-logo img {
+  width: 80px;
+}
+footer .footer-container .footer-caja .footer-terminos {
+  max-width: 350px;
+  margin-top: 16px;
+  font-weight: 600px;
+  color: #7a7a7a;
+  font-size: 16px;
+}
+footer .footer-container .footer-caja h2 {
+  margin-bottom: 40px;
+  color: #343434;
+  font-size: 22px;
+}
+footer .footer-container .footer-caja a {
+  margin-top: 8px;
+  color: #7a7a7a;
+  text-decoration: none;
+}
+footer .footer-container .footer-caja a .fab {
+  font-size: 20px;
+}
+footer .footer-copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+footer .footer-copyright p {
+  margin-top: 30px;
+  color: #7a7a7a;
+}
+footer .footer-copyright hr {
+  color: #7a7a7a;
 }
 
 .form {
